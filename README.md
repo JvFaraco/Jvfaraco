@@ -8,7 +8,7 @@ Olá! 👋 Eu sou João Victor Faraco, um entusiasta de tecnologia e estudante d
 - HTML5 & CSS3 🌐
 
 ## 📚 Educação
-Atualmente estou cursando Gestão da Tecnologia da Informação.
+Atualmente estou cursando Gestão da Tecnologia da Informação, cursando a quinta fase.
 
 ## 👨‍💼 Experiência Profissional
 - **Instituto São José** (Suporte Técnico)
