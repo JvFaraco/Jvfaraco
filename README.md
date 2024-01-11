@@ -1,5 +1,6 @@
 # Sobre Mim
 Olá! 👋 Eu sou João Victor Faraco, um entusiasta de tecnologia e estudante de Gestão da Tecnologia da Informação, atualmente na quinta fase. Tenho 19 anos e moro no bairro Kobrasol em São José, SC.
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=First+line+of+text;Second+line+of+text)](https://git.io/typing-svg)
 
 ## 🚀 Tecnologias e Habilidades
 - Suporte Técnico 🛠️
