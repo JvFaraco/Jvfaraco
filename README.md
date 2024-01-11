@@ -24,6 +24,5 @@ Atualmente estou cursando Gestão da Tecnologia da Informação.
 - [![Windows](https://img.shields.io/badge/Windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white)](#) 
 - [![Git](https://img.shields.io/badge/Git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white)](#)
 - [![VSCode](https://img.shields.io/badge/VSCode-%23007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white)](#)
-- 
 ## 📊 Estatísticas GitHub
-![Estatísticas GitHub](https://github-readme-stats.vercel.app/api?username=seu-username&show_icons=true&hide_title=true&hide_border=true&count_private=true&theme=dark)
+![Estatísticas GitHub](https://github-readme-stats.vercel.app/api?username=seu-username&show_icons=true&count_private=true&theme=dark)
