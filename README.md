@@ -1,6 +1,20 @@
 # Sobre Mim
 Olá! 👋 Eu sou João Victor Faraco, um entusiasta de tecnologia e estudante de Gestão da Tecnologia da Informação, atualmente na quinta fase. Tenho 19 anos e moro no bairro Kobrasol em São José, SC.
+<script type="text/javascript">
+  var text = "Olá! 👋 Eu sou João Victor Faraco, um entusiasta de tecnologia e estudante de Gestão da Tecnologia da Informação, atualmente na quinta fase. Tenho 19 anos e moro no bairro Kobrasol em São José, SC.";
+  var index = 0;
+  var speed = 50; // velocidade da digitação em milissegundos
 
+  function typeEffect() {
+    if (index < text.length) {
+      document.querySelector('details summary b').innerText += text.charAt(index);
+      index++;
+      setTimeout(typeEffect, speed);
+    }
+  }
+
+  typeEffect();
+</script>
 ## 🚀 Tecnologias e Habilidades
 - Suporte Técnico 🛠️
 - Python 🐍
