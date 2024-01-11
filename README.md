@@ -1,7 +1,6 @@
 # Sobre Mim
-Olá!+👋+Eu+sou+João+Victor+Faraco,+um+entusiasta+de+tecnologia+e+estudante+de+Gestão+da+Tecnologia+da+Informação,+atualmente+na+quinta+fase.+Tenho+19+anos+e+moro+no+bairro+Kobrasol+em+São+José,+SC.
 Olá!+👋+Eu+sou João Victor Faraco, um entusiasta de tecnologia e estudante de Gestão da Tecnologia da Informação, atualmente na quinta fase. Tenho 19 anos e moro no bairro Kobrasol em São José, SC.
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Olá!+👋+Eu+sou+João+Victor+Faraco+um+entusiasta+de+tecnologia+e+estudante+de+Gestão+da+Tecnologia+da+Informação,+atualmente+na+quinta+fase.+Tenho+19+anos+e+moro+no+bairro+Kobrasol+em+São+José,+SC.;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=F7F7F7&background=FFFFFF00&random=false&width=600&height=70&lines=Ol%C3%A1!%F0%9F%91%8B+Eu+sou+Jo%C3%A3o+Victor+Faraco!)](https://git.io/typing-svg)
 
 ## 🚀 Tecnologias e Habilidades
 - Suporte Técnico 🛠️
