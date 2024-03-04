@@ -13,6 +13,10 @@ Atualmente estou cursando Gestão da Tecnologia da Informação, cursando a quin
 ## 👨‍💼 Experiência Profissional
 - **Instituto São José** (Suporte Técnico)
   - Estágio de TI por 8 meses.
+  - 10/2022 - 06/2023.
+- **Figueirense Futebol Clube** (Suporte Técnico)
+  - Estágio de TI.
+  - 02/2024 - Atuando.
 
 ## 📫 Conecte-se Comigo
 - [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jvfaraco/)
