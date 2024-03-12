@@ -1,5 +1,5 @@
 # Sobre Mim
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=300&color=#808080&background=FFFFFF00&random=false&width=600&height=65&lines=Ol%C3%A1!+%F0%9F%91%8B+Eu+sou+Jo%C3%A3o+Victor+Faraco!;Fa%C3%A7o+o+curso+Gest%C3%A3o+da+Tecnologia+da+Informa%C3%A7%C3%A3o;Tenho+19+anos+e+moro+em+S%C3%A3o+Jos%C3%A9%2C+SC.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=300&color=128, 128, 1280&background=FFFFFF00&random=false&width=600&height=65&lines=Ol%C3%A1!+%F0%9F%91%8B+Eu+sou+Jo%C3%A3o+Victor+Faraco!;Fa%C3%A7o+o+curso+Gest%C3%A3o+da+Tecnologia+da+Informa%C3%A7%C3%A3o;Tenho+19+anos+e+moro+em+S%C3%A3o+Jos%C3%A9%2C+SC.)](https://git.io/typing-svg)
 
 ## 🚀 Tecnologias e Habilidades
 - Suporte Técnico 🛠️
