@@ -17,7 +17,7 @@ Atualmente estou cursando Gestão da Tecnologia da Informação, cursando a quin
 - **Figueirense Futebol Clube** (Suporte Técnico)
   - Estágio de TI por 7 meses.
   - 02/2024 - 09/2024.
-- **Orsegups ** (Suporte Técnico)
+- **Orsegups** (Suporte Técnico)
   - Técnico de Informática.
   - 09/2024 - Atuando.
 
