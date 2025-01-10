@@ -8,7 +8,7 @@
 - HTML5 & CSS3 🌐
 
 ## 📚 Educação
-Atualmente estou cursando Gestão da Tecnologia da Informação, cursando a quinta fase.
+Atualmente estou cursando Gestão da Tecnologia da Informação, cursando a sexta fase.
 
 ## 👨‍💼 Experiência Profissional
 - **Instituto São José** (Suporte Técnico)
