@@ -8,19 +8,20 @@
 - HTML5 & CSS3 🌐
 
 ## 📚 Educação
-Atualmente estou cursando Gestão da Tecnologia da Informação, cursando a sexta fase.
+Formado no curso Gestão da Tecnologia da Informação na Estácio de Sá.
 
 ## 👨‍💼 Experiência Profissional
+- **Orsegups** (Suporte Técnico)
+  - Suporte Técnico Especializado
+  - 03/2025 - Atuando.
+  - Técnico de Informática.
+  - 09/2024 - 03/2025
 - **Instituto São José** (Suporte Técnico)
   - Estágio de TI por 1 ano.
   - 10/2022 - 10/2023.
 - **Figueirense Futebol Clube** (Suporte Técnico)
   - Estágio de TI por 7 meses.
   - 02/2024 - 09/2024.
-- **Orsegups** (Suporte Técnico)
-  - Técnico de Informática.
-  - 09/2024 - Atuando.
-
 
 ## 📫 Conecte-se Comigo
 - [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jvfaraco/)
