@@ -12,9 +12,9 @@ Formado no curso Gestão da Tecnologia da Informação na Estácio de Sá.
 
 ## 👨‍💼 Experiência Profissional
 - **Orsegups** (Suporte Técnico)
-  - Suporte Técnico Especializado
+  - Suporte Técnico Especializado.
   - 03/2025 - Atuando.
-  - Técnico de Informática.
+  - Técnico de Informática por 6 meses.
   - 09/2024 - 03/2025
 - **Instituto São José** (Suporte Técnico)
   - Estágio de TI por 1 ano.
