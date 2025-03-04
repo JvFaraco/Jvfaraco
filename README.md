@@ -14,6 +14,7 @@ Formado no curso Gestão da Tecnologia da Informação na Estácio de Sá.
 - **Orsegups** (Suporte Técnico)
   - Suporte Técnico Especializado
   - 03/2025 - Atuando.
+    
   - Técnico de Informática.
   - 09/2024 - 03/2025
 - **Instituto São José** (Suporte Técnico)
