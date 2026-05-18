@@ -77,18 +77,6 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 ---
 
-## 📊 Estatísticas GitHub
-
-<div align="center">
-
-![Estatísticas GitHub](https://github-readme-stats.vercel.app/api?username=JvFaraco&show_icons=true&count_private=true&theme=tokyonight&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JvFaraco&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
 ## 📫 Conecte-se Comigo
 
 <div align="center">
