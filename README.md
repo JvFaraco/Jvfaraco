@@ -1,7 +1,7 @@
 <!-- Header animado -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=400&color=1E3A8A&background=FFFFFF00&random=false&width=700&height=70&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Victor+Faraco+%F0%9F%91%8B;Analista+de+Sistemas+%7C+MBA+em+Intelig%C3%AAncia+Artificial;Construindo+IA+aplicada+em+opera%C3%A7%C3%B5es+reais;Python+%7C+Power+BI+%7C+Copilot+Studio+%7C+Azure)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=400&color=1E3A8A&background=FFFFFF00&random=false&width=700&height=70&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Victor+Faraco+%F0%9F%91%8B;Analista+de+Sistemas+%7C+MBA+em+Intelig%C3%AAncia+Artificial;Construindo+IA+aplicada+em+opera%C3%A7%C3%B5es+reais;Python+%7C+Power+BI+%7C+Copilot+Studio+%7C+Flask)](https://git.io/typing-svg)
 
 </div>
 
@@ -22,7 +22,7 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 | Projeto | Descrição | Stack |
 |--------|-----------|-------|
 | 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço por especialistas de campo usando taxonomy padronizada | Copilot Studio |
-| 📊 **Dashboard Operacional Alarme 365** | Sistema de análise e controle de O.S com login, importação de dados e múltiplas visões operacionais | HTML5 · CSS3 · JavaScript |
+| 📊 **Dashboard Operacional Alarme 365** | Sistema de análise e controle de O.S com login, importação de dados e múltiplas visões operacionais | Flask · HTML5 · JavaScript |
 | 🗺️ **Mapa Inteligente de Rotas** | POC de otimização de rotas para especialistas de campo com algoritmo nearest-neighbor | Leaflet · OpenStreetMap · HTML5 |
 | 🔍 **Validador de O.S com IA** | Sistema de validação automática de ordens de serviço técnicas usando LLMs | Python · Claude API *(em desenvolvimento)* |
 
@@ -44,6 +44,10 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black)
 
+**Backend**
+
+![Flask](https://img.shields.io/badge/Flask-%23000.svg?&style=for-the-badge&logo=flask&logoColor=white)
+
 **Plataformas & Infra**
 
 ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-%230078D4.svg?&style=for-the-badge&logo=microsoft&logoColor=white)
@@ -53,12 +57,20 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 ---
 
-## 📚 Educação & Aprendizado
+## 📚 Educação & Certificações
 
 - 🎓 **MBA em Inteligência Artificial** — Estácio de Sá *(em andamento)*
 - 🎓 **Gestão da Tecnologia da Informação** — Estácio de Sá *(2025)*
-- 📖 Anthropic Academy — Building with Claude API
-- 📖 Udemy — Python Avançado
+
+![Udemy](https://img.shields.io/badge/Udemy-%23A435F0.svg?&style=for-the-badge&logo=udemy&logoColor=white) **Python Completo do Zero ao Avançado + Projetos Reais** — *jul 2022*
+
+![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Aplicação da Melhoria Contínua** — *jun 2024*
+
+![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Implantação de Governança de T.I.** — *jun 2024*
+
+![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Gestão de Projetos e de Informação** — *mar 2024*
+
+![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Programação para Internet** — *ago 2023*
 
 ---
 
@@ -66,7 +78,7 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 **Orsegups** · Analista de Sistemas · *03/2025 — Atual*
 - Desenvolvimento de agentes de IA para classificação e validação de Ordens de Serviço
-- Business Intelligence operacional com BI
+- Business Intelligence operacional com Power BI
 - Padronização de fluxos operacionais e taxonomy de dados
 
 **Orsegups** · Especialista em Testes · *09/2024 — 03/2025*
@@ -74,6 +86,18 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 **Figueirense Futebol Clube** · Estágio TI · *02/2024 — 09/2024*
 
 **Instituto São José** · Estágio TI · *10/2022 — 10/2023*
+
+---
+
+## 📊 Estatísticas GitHub
+
+<div align="center">
+
+![Estatísticas GitHub](https://github-readme-stats.vercel.app/api?username=JvFaraco&show_icons=true&count_private=true&theme=tokyonight&hide_border=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JvFaraco&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
 
 ---
 
