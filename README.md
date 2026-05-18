@@ -21,7 +21,7 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 | Projeto | Descrição | Stack |
 |--------|-----------|-------|
-| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço por especialistas de campo usando taxonomy padronizada | Copilot Studio · Azure OpenAI · Power Automate |
+| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço por especialistas de campo usando taxonomy padronizada | Copilot Studio |
 | 📊 **Dashboard Operacional Alarme 365** | Sistema de análise e controle de O.S com login, importação de dados e múltiplas visões operacionais | HTML5 · CSS3 · JavaScript |
 | 🗺️ **Mapa Inteligente de Rotas** | POC de otimização de rotas para especialistas de campo com algoritmo nearest-neighbor | Leaflet · OpenStreetMap · HTML5 |
 | 🔍 **Validador de O.S com IA** | Sistema de validação automática de ordens de serviço técnicas usando LLMs | Python · Claude API *(em desenvolvimento)* |
@@ -34,7 +34,6 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 ![Python](https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-%23F2C811.svg?&style=for-the-badge&logo=powerbi&logoColor=black)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-%230078D4.svg?&style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-%23742774.svg?&style=for-the-badge&logo=microsoft&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white)
 
@@ -59,7 +58,7 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 - 🎓 **MBA em Inteligência Artificial** — Estácio de Sá *(em andamento)*
 - 🎓 **Gestão da Tecnologia da Informação** — Estácio de Sá *(2025)*
 - 📖 Anthropic Academy — Building with Claude API
-- 📖 DeepLearning.AI — AI & ML Specializations
+- 📖 Udemy — Python Avançado
 
 ---
 
@@ -67,11 +66,10 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 **Orsegups** · Analista de Sistemas · *03/2025 — Atual*
 - Desenvolvimento de agentes de IA para classificação e validação de Ordens de Serviço
-- Business Intelligence operacional com Power BI
-- Automação de processos com Power Automate e Copilot Studio
+- Business Intelligence operacional com BI
 - Padronização de fluxos operacionais e taxonomy de dados
 
-**Orsegups** · Técnico de Informática · *09/2024 — 03/2025*
+**Orsegups** · Especialista em Testes · *09/2024 — 03/2025*
 
 **Figueirense Futebol Clube** · Estágio TI · *02/2024 — 09/2024*
 
