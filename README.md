@@ -21,10 +21,11 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 | Projeto | Descrição | Stack |
 |--------|-----------|-------|
-| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço por especialistas de campo usando taxonomy padronizada | Copilot Studio |
-| 📊 **Dashboard Operacional Alarme 365** | Sistema de análise e controle de O.S com login, importação de dados e múltiplas visões operacionais | Flask · HTML5 · JavaScript |
-| 🗺️ **Mapa Inteligente de Rotas** | POC de otimização de rotas para especialistas de campo com algoritmo nearest-neighbor | Leaflet · OpenStreetMap · HTML5 |
-| 🔍 **Validador de O.S com IA** | Sistema de validação automática de ordens de serviço técnicas usando LLMs | Python · Claude API *(em desenvolvimento)* |
+| 🛡️ **Portal Operacional A365** | Portal interno com login que unifica dashboard de O.S em tempo real, mapa de rotas e gestão de usuários — dados integrados direto via API | FastAPI · SQLite · JavaScript |
+| 📊 **Dashboard de O.S em Tempo Real** | Acompanhamento de ordens de serviço abertas por técnico, com filtros, kanban e atualização automática a cada minuto | FastAPI · HTML5 · Chart.js |
+| 🗺️ **Mapa de Cobertura de Rotas** | Cobertura geográfica das rotas dos especialistas, com geocodificação e polígonos oficiais (IBGE / prefeituras) | Python · OpenStreetMap · IBGE |
+| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço por especialista de campo usando taxonomy padronizada | Agentes de IA |
+| 🔍 **Validador de O.S com IA** | Validação automática de ordens de serviço técnicas usando LLMs | Python · Claude API |
 
 ---
 
@@ -34,8 +35,8 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 ![Python](https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-%23F2C811.svg?&style=for-the-badge&logo=powerbi&logoColor=black)
-![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-%23742774.svg?&style=for-the-badge&logo=microsoft&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude%20API-%23D97757.svg?&style=for-the-badge&logo=anthropic&logoColor=white)
 
 **Frontend & Web**
 
@@ -46,7 +47,9 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 **Backend**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?&style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-%23000.svg?&style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-%2307405E.svg?&style=for-the-badge&logo=sqlite&logoColor=white)
 
 **Plataformas & Infra**
 
