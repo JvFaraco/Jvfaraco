@@ -1,7 +1,7 @@
 <!-- Header animado -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=400&color=1E3A8A&background=FFFFFF00&random=false&width=700&height=70&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Victor+Faraco+%F0%9F%91%8B;Analista+de+Sistemas+%7C+MBA+em+Intelig%C3%AAncia+Artificial;Construindo+IA+aplicada+em+opera%C3%A7%C3%B5es+reais;Python+%7C+Power+BI+%7C+Copilot+Studio+%7C+Flask)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=400&color=FFC72C&background=FFFFFF00&random=false&width=760&height=70&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Victor+Faraco+%F0%9F%91%8B;Analista+de+Sistemas+%7C+MBA+em+Intelig%C3%AAncia+Artificial;Construindo+IA+aplicada+em+opera%C3%A7%C3%B5es+reais;Python+%7C+FastAPI+%7C+pandas+%7C+Leaflet+%7C+Azure+OpenAI)](https://git.io/typing-svg)
 
 </div>
 
@@ -11,6 +11,8 @@
 
 Analista de Sistemas com foco em **IA aplicada a processos operacionais**. Atuo na Orsegups desenvolvendo projetos que combinam automação, inteligência de dados e agentes de IA em operações reais — do campo ao dashboard.
 
+Na prática, isso significa ir da ponta à ponta: **backend em Python** (FastAPI, pandas, integração com APIs), **frontend e visualização** (JavaScript, Chart.js, Leaflet) e o **deploy** que coloca aquilo na mão de quem precisa. Trato **privacidade e LGPD como requisito de arquitetura**, não como checklist do fim — minimização de PII, allowlist no payload e retenção só do que é agregado.
+
 Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com formação em Gestão da Tecnologia da Informação.
 
 > *"Não basta implementar IA. Precisa resolver o problema certo."*
@@ -19,13 +21,21 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 ## 🚀 O que estou construindo
 
+**Públicos — com demo ao vivo**
+
 | Projeto | Descrição | Stack |
 |--------|-----------|-------|
-| 🛡️ **Portal Operacional A365** | Portal interno com login que unifica dashboard de O.S em tempo real, mapa de rotas e gestão de usuários — dados integrados direto via API | FastAPI · SQLite · JavaScript |
-| 📊 **Dashboard de O.S em Tempo Real** | Acompanhamento de ordens de serviço abertas por técnico, com filtros, kanban e atualização automática a cada minuto | FastAPI · HTML5 · Chart.js |
-| 🗺️ **Mapa de Cobertura de Rotas** | Cobertura geográfica das rotas dos especialistas, com geocodificação e polígonos oficiais (IBGE / prefeituras) | Python · OpenStreetMap · IBGE |
-| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço por especialista de campo usando taxonomy padronizada | Agentes de IA |
-| 🔍 **Validador de O.S com IA** | Validação automática de ordens de serviço técnicas usando LLMs | Python · Claude API |
+| 🗺️ **[Route Coverage Map](https://github.com/JvFaraco/mapaderotas)** · [demo](https://jvfaraco.github.io/mapaderotas/) | Pipeline geoespacial que transforma planilhas de rotas (só nomes, sem coordenadas) em um mapa autocontido: geocodificação progressiva, malha oficial do IBGE, fallback por Voronoi e corte de sobreposição entre áreas. CI com lint, tipos e piso de 80% de cobertura | Python · Leaflet · IBGE |
+| 📊 **[Operations Dashboard Platform](https://github.com/JvFaraco/operational-dashboard-platform)** · [demo](https://jvfaraco.github.io/operational-dashboard-platform/) | Plataforma que transforma planilhas operacionais dispersas em cinco módulos navegáveis: controle de O.S, agendadas, não agendadas, risco contratual e mapa de cobertura | Flask · pandas · Chart.js |
+
+**Internos — em produção na operação**
+
+| Projeto | Descrição | Stack |
+|--------|-----------|-------|
+| 🔍 **Validação de O.S com IA** | Coleta autenticada das O.S, monta o pacote completo (telemetria da central, equipamentos, fotos) e aplica uma régua determinística de checagens antes de qualquer IA. Anexa o contrato assinado convertendo o PDF em imagens, com rotação de token e minimização de PII em duas camadas de payload | Python · LLMs · APIs |
+| 🛡️ **Portal Operacional A365** | Portal interno que reúne as ferramentas da operação atrás de um único login: dashboard de O.S atualizado a cada 60s, mapa de rotas e área administrativa. Senha em argon2id, sessão em cookie httpOnly, deploy em VPS com systemd atrás de HTTPS | FastAPI · SQLite · JavaScript |
+| ↔️ **Vazão do Dia** | Responde "estamos zerando ou acumulando chamado?" — O.S abertas × fechadas no dia, com saldo e quebras por supervisor, regional e tipo. Janela tratada no fuso de São Paulo, histórico só agregado por decisão de LGPD e paleta validada para daltonismo | Python · Playwright |
+| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço dos especialistas de campo usando a taxonomia padronizada TIPO / MOTIVO / PROBLEMA / SOLUÇÃO, reduzindo erro de classificação e retrabalho | Copilot Studio · Azure OpenAI |
 
 ---
 
@@ -34,16 +44,10 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 **IA & Dados**
 
 ![Python](https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-%23F2C811.svg?&style=for-the-badge&logo=powerbi&logoColor=black)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-%230078D4.svg?&style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-%23742774.svg?&style=for-the-badge&logo=microsoft&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white)
-![Claude API](https://img.shields.io/badge/Claude%20API-%23D97757.svg?&style=for-the-badge&logo=anthropic&logoColor=white)
-
-**Frontend & Web**
-
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-%23F2C811.svg?&style=for-the-badge&logo=powerbi&logoColor=black)
 
 **Backend**
 
@@ -51,12 +55,20 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 ![Flask](https://img.shields.io/badge/Flask-%23000.svg?&style=for-the-badge&logo=flask&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-%2307405E.svg?&style=for-the-badge&logo=sqlite&logoColor=white)
 
-**Plataformas & Infra**
+**Frontend & Visualização**
 
-![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-%230078D4.svg?&style=for-the-badge&logo=microsoft&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-%23FF6384.svg?&style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-%23199900.svg?&style=for-the-badge&logo=leaflet&logoColor=white)
+
+**Infra & Qualidade**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-%230078D6.svg?&style=for-the-badge&logo=windows&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-%230A9EDC.svg?&style=for-the-badge&logo=pytest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-%232EAD33.svg?&style=for-the-badge&logo=playwright&logoColor=white)
 
 ---
 
@@ -80,11 +92,17 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 ## 💼 Experiência Profissional
 
 **Orsegups** · Analista de Sistemas · *03/2025 — Atual*
-- Desenvolvimento de agentes de IA para classificação e validação de Ordens de Serviço
-- Business Intelligence operacional com Power BI
-- Padronização de fluxos operacionais e taxonomy de dados
+- Portal interno em FastAPI + SQLite reunindo as ferramentas da operação atrás de um único login, com deploy em VPS
+- Backend de validação de O.S com IA: coleta autenticada, régua determinística de checagens e anexo automático do contrato assinado
+- Coletores que substituíram a extração manual de planilhas, alimentando dashboards que atualizam sozinhos
+- Dashboards de O.S, produtividade e vazão do dia usados por supervisores em 22 regionais
+- Cobertura geográfica das rotas de campo com pipeline geoespacial (geocodificação em cascata, IBGE e Voronoi)
+- Privacidade por design em todos os projetos: minimização de PII, allowlist de payload e retenção só de dado agregado
+- Padronização dos fluxos e da taxonomia de dados de campo usada pela Operação, NAC e BackOffice
 
-**Orsegups** · Especialista em Testes · *09/2024 — 03/2025*
+**Orsegups** · Especialista em Testes de Hardware · *09/2024 — 03/2025*
+- Dashboards para monitoramento do ciclo de vida de equipamentos (RMA, novos, testados e em campo)
+- Reestruturei o sistema de testes da fábrica separando o fluxo NOVOS vs. RMA, eliminando input manual que gerava erro de classificação
 
 **Figueirense Futebol Clube** · Estágio TI · *02/2024 — 09/2024*
 
