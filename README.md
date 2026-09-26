@@ -52,7 +52,6 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 **Backend**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?&style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-%23000.svg?&style=for-the-badge&logo=flask&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-%2307405E.svg?&style=for-the-badge&logo=sqlite&logoColor=white)
 
 **Frontend & Visualização**
@@ -66,9 +65,7 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 **Infra & Qualidade**
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=black)
 ![pytest](https://img.shields.io/badge/pytest-%230A9EDC.svg?&style=for-the-badge&logo=pytest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-%232EAD33.svg?&style=for-the-badge&logo=playwright&logoColor=white)
 
 ---
 
