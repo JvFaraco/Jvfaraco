@@ -32,10 +32,11 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 | Projeto | Descrição | Stack |
 |--------|-----------|-------|
-| 🔍 **Validação de O.S com IA** | Coleta autenticada das O.S, monta o pacote completo (telemetria da central, equipamentos, fotos) e aplica uma régua determinística de checagens antes de qualquer IA. Anexa o contrato assinado convertendo o PDF em imagens, com rotação de token e minimização de PII em duas camadas de payload | Python · LLMs · APIs |
-| 🛡️ **Portal Operacional A365** | Portal interno que reúne as ferramentas da operação atrás de um único login: dashboard de O.S atualizado a cada 60s, mapa de rotas e área administrativa. Senha em argon2id, sessão em cookie httpOnly, deploy em VPS com systemd atrás de HTTPS | FastAPI · SQLite · JavaScript |
-| ↔️ **Vazão do Dia** | Responde "estamos zerando ou acumulando chamado?" — O.S abertas × fechadas no dia, com saldo e quebras por supervisor, regional e tipo. Janela tratada no fuso de São Paulo, histórico só agregado por decisão de LGPD e paleta validada para daltonismo | Python · Playwright |
-| 🤖 **Agente de Classificação de O.S** | Agente de IA que classifica Ordens de Serviço dos especialistas de campo usando a taxonomia padronizada TIPO / MOTIVO / PROBLEMA / SOLUÇÃO, reduzindo erro de classificação e retrabalho | Copilot Studio · Azure OpenAI |
+| 🤖 **Validador de O.S com IA** | Pré-validação das O.S de pós-venda e de instalação nova: coleta e sanitiza o pacote completo, lê o contrato e o "de acordo" por OCR local, aplica regras determinísticas antes da IA e escolhe problema/solução só entre as 111 combinações válidas do catálogo. Envia para validação ou devolve com nota de correção — nunca aprova sozinho | Python · Copilot Studio · OCR · SQLite |
+| ↔️ **Integração UbiDesk × Ploomes** | Loop a cada 5 minutos que busca o contrato (RPL) no CRM, converte o PDF em imagem e anexa na O.S, além de registrar o "de acordo" do cliente vindo da timeline. Sem API oficial: usuário dedicado, token com rotação, deduplicação e modo de simulação | Python · APIs · PDF |
+| 🛡️ **Portal Operacional A365** | Portal interno que reúne as ferramentas da operação atrás de um único login: dashboard de O.S alimentado por coletor próprio, mapa de rotas e área administrativa. Senha em argon2id, sessão em cookie httpOnly, blocklist de PII no coletor, deploy em VPS com systemd atrás de HTTPS | FastAPI · SQLite · JavaScript |
+| 🧭 **City Route Divider** | Divide uma cidade entre rotas de campo: volume de contas por bairro (sem persistir dado de cliente) cruzado com o SIG oficial do município, proposta Norte/Sul mantendo cada bairro inteiro, mapa e planilha para aprovação | Python · GIS · Leaflet |
+| 🧰 **Kit de automações de campo** | Ferramentas somente leitura, entregues como executável para quem não programa: movimentação de equipamentos para comissionamento, equipamentos removidos em O.S pausadas/reprovadas, auditoria de contas sem rota e manutenção remota. Todas sobre um esqueleto comum com travas de escrita e testes offline | Python · openpyxl · pytest |
 
 ---
 
@@ -93,8 +94,9 @@ Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com 
 
 **Orsegups** · Analista de Sistemas · *03/2025 — Atual*
 - Portal interno em FastAPI + SQLite reunindo as ferramentas da operação atrás de um único login, com deploy em VPS
-- Backend de validação de O.S com IA: coleta autenticada, régua determinística de checagens e anexo automático do contrato assinado
-- Coletores que substituíram a extração manual de planilhas, alimentando dashboards que atualizam sozinhos
+- Pré-validação de O.S com IA em produção (Copilot Studio): regras determinísticas primeiro, OCR local do contrato e decisão final sempre humana
+- Integração do sistema de O.S com o CRM sem API oficial, anexando contrato e "de acordo" do cliente automaticamente
+- Coletores e relatórios (comissionamento, equipamentos removidos, auditoria de rotas) que substituíram conferências manuais
 - Dashboards de O.S, produtividade e vazão do dia usados por supervisores em 22 regionais
 - Cobertura geográfica das rotas de campo com pipeline geoespacial (geocodificação em cascata, IBGE e Voronoi)
 - Privacidade por design em todos os projetos: minimização de PII, allowlist de payload e retenção só de dado agregado
