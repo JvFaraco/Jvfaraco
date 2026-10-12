@@ -1,4 +1,4 @@
-﻿<a href="https://jvfaraco.github.io/jvfaraco-portifolio/">
+<a href="https://jvfaraco.github.io/jvfaraco-portifolio/">
   <img src="assets/profile-banner.svg" alt="João Victor Faraco — automação, Python e IA aplicada a operações" width="100%" />
 </a>
 
@@ -48,16 +48,16 @@ Os repositórios são privados. O portfólio apresenta problemas e decisões de 
 
 ## Trajetória
 
-**Orsegups — Analista de Sistemas** · março/2025 — atual  
+**Orsegups — Analista de Sistemas** · março/2025 — atual<br>
 Automação, integrações, pré-validação com IA, coletores, dashboards e cobertura geográfica. Atuação próxima de operação, suporte e backoffice.
 
-**Orsegups — Especialista em Testes de Hardware** · setembro/2024 — março/2025  
+**Orsegups — Especialista em Testes de Hardware** · setembro/2024 — março/2025<br>
 Dashboards do ciclo de vida dos equipamentos e organização dos fluxos de teste de novos equipamentos e RMA.
 
-**Figueirense Futebol Clube — Estagiário de TI** · fevereiro/2024 — setembro/2024  
+**Figueirense Futebol Clube — Estagiário de TI** · fevereiro/2024 — setembro/2024<br>
 Suporte técnico e manutenção de infraestrutura.
 
-**Instituto São José — Estagiário de TI** · outubro/2022 — outubro/2023  
+**Instituto São José — Estagiário de TI** · outubro/2022 — outubro/2023<br>
 Suporte técnico e administração de sistemas.
 
 ## Formação
