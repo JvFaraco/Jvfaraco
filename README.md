@@ -1,129 +1,83 @@
-<!-- Header animado -->
-<div align="center">
+﻿<a href="https://jvfaraco.github.io/jvfaraco-portifolio/">
+  <img src="assets/profile-banner.svg" alt="João Victor Faraco — automação, Python e IA aplicada a operações" width="100%" />
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2800&pause=400&color=FFC72C&background=FFFFFF00&random=false&width=760&height=70&lines=Ol%C3%A1%2C+eu+sou+Jo%C3%A3o+Victor+Faraco+%F0%9F%91%8B;Analista+de+Sistemas+%7C+MBA+em+Intelig%C3%AAncia+Artificial;Construindo+IA+aplicada+em+opera%C3%A7%C3%B5es+reais;Python+%7C+FastAPI+%7C+pandas+%7C+Leaflet+%7C+Azure+OpenAI)](https://git.io/typing-svg)
+**Analista de Sistemas na Orsegups · São José, SC**
 
-</div>
+Desenvolvo automações e sistemas que conectam **operações, dados e inteligência artificial**. Minha experiência combina Python, integração de APIs, aplicações web e geoprocessamento — da coleta de dados à ferramenta usada pela equipe.
 
----
+[Portfólio e estudos de caso](https://jvfaraco.github.io/jvfaraco-portifolio/) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [Contato](mailto:joaovictorfaraco@gmail.com)
 
-## 🧠 Sobre Mim
+## O que você encontra no meu trabalho
 
-Analista de Sistemas com foco em **IA aplicada a processos operacionais**. Atuo na Orsegups desenvolvendo projetos que combinam automação, inteligência de dados e agentes de IA em operações reais — do campo ao dashboard.
+- **IA com critérios claros:** regras determinísticas antes do modelo, contexto sanitizado, classificação restrita ao catálogo e decisão final humana.
+- **Integrações que consideram falhas:** rotação de tokens, deduplicação, reconciliação, simulação e conferência depois da escrita.
+- **Dados úteis para a operação:** coletores, indicadores, relatórios Excel e mapas de filas e cobertura territorial.
+- **Qualidade verificável:** testes offline, contratos medidos e minimização de dados pessoais.
 
-Na prática, isso significa ir da ponta à ponta: **backend em Python** (FastAPI, pandas, integração com APIs), **frontend e visualização** (JavaScript, Chart.js, Leaflet) e o **deploy** que coloca aquilo na mão de quem precisa. Trato **privacidade e LGPD como requisito de arquitetura**, não como checklist do fim — minimização de PII, allowlist no payload e retenção só do que é agregado.
+## Projetos públicos
 
-Atualmente cursando **MBA em Inteligência Artificial** na Estácio de Sá, com formação em Gestão da Tecnologia da Informação.
+| Projeto | Problema e solução | Explorar |
+|---|---|---|
+| **Route Coverage Map** | Converte descrições de rotas em mapa: geocodificação progressiva, limites IBGE, fallback geométrico e recorte de sobreposições. Demo com dados fictícios. | [Código](https://github.com/JvFaraco/mapaderotas) · [Demo](https://jvfaraco.github.io/mapaderotas/) |
+| **Operations Dashboard Platform** | Normaliza planilhas em Python e reúne OS, agendas, pendências, risco e cobertura em cinco módulos. Demo pública estática e fictícia; backend Flask no repositório. | [Código](https://github.com/JvFaraco/operational-dashboard-platform) · [Demo](https://jvfaraco.github.io/operational-dashboard-platform/) |
+| **Bot de alertas no Telegram** | Monitora produtos e ofertas com critérios de preço, desconto e palavras-chave. Envia alertas, deduplica notificações e roda pelo GitHub Actions. | [Código](https://github.com/JvFaraco/bot-telegram) |
 
-> *"Não basta implementar IA. Precisa resolver o problema certo."*
+## Estudos de caso de sistemas internos
 
----
+Os repositórios são privados. O portfólio apresenta problemas e decisões de engenharia, sem expor código, credenciais ou dados operacionais.
 
-## 🚀 O que estou construindo
+| Sistema | O que desenvolvi | Engenharia aplicada |
+|---|---|---|
+| **Validador de OS com IA** | Pré-validação de pós-venda e instalação: coleta dados, lê documentos por OCR local, aplica regras e prepara classificação/observação para conferência humana. | Python, Copilot Studio, JSON Schema, OCR, SQLite, locks e reconciliação |
+| **Portal Operacional A365** | Portal com autenticação, dashboards de OS e produtividade, cobertura de rotas e auditoria de contas. | FastAPI, SQLite, JavaScript, coleta incremental e projeção de dados |
+| **Integração de OS com CRM** | Sincronização de contrato/RPL, timeline e respostas do cliente, com acompanhamento de mudanças e prevenção de anexos duplicados. | Python, APIs HTTP, PDF, rotação de tokens e estado por operação |
+| **Ferramentas de campo e agenda** | Relatórios de comissão e equipamentos removidos, auditoria de contas/rotas, reagendamento e assistente de recomendação de agenda. | Python, openpyxl, testes offline, extensão Chrome e regras por contexto |
 
-**Públicos — com demo ao vivo**
+**Evidência de qualidade:** a suíte local do validador registrou **1.503 testes passando em 12/10/2026**. É um snapshot desse projeto, não uma taxa de sucesso da IA ou uma métrica de produtividade. O assistente de agenda mantém limitações documentadas, como bloqueios não verificados e durações que precisam de calibração operacional.
 
-| Projeto | Descrição | Stack |
-|--------|-----------|-------|
-| 🗺️ **[Route Coverage Map](https://github.com/JvFaraco/mapaderotas)** · [demo](https://jvfaraco.github.io/mapaderotas/) | Pipeline geoespacial que transforma planilhas de rotas (só nomes, sem coordenadas) em um mapa autocontido: geocodificação progressiva, malha oficial do IBGE, fallback por Voronoi e corte de sobreposição entre áreas. CI com lint, tipos e piso de 80% de cobertura | Python · Leaflet · IBGE |
-| 📊 **[Operations Dashboard Platform](https://github.com/JvFaraco/operational-dashboard-platform)** · [demo](https://jvfaraco.github.io/operational-dashboard-platform/) | Plataforma que transforma planilhas operacionais dispersas em cinco módulos navegáveis: controle de O.S, agendadas, não agendadas, risco contratual e mapa de cobertura | Flask · pandas · Chart.js |
+## Stack com contexto
 
-**Internos — em produção na operação**
+| Área | Tecnologias e práticas |
+|---|---|
+| Automação e backend | Python, FastAPI, Flask, APIs HTTP, processamento de PDF, openpyxl |
+| IA aplicada | Copilot Studio, Azure OpenAI, OCR local, engenharia de contexto, regras determinísticas, JSON Schema |
+| Dados e visualização | pandas, SQL/SQLite, Power BI, JavaScript, Chart.js |
+| Geoprocessamento | Leaflet, Shapely, IBGE, geocodificação e geometria de cobertura |
+| Entrega e qualidade | Git/GitHub, GitHub Actions, pytest, Playwright, Linux, documentação de contratos e simulação |
 
-| Projeto | Descrição | Stack |
-|--------|-----------|-------|
-| 🤖 **Validador de O.S com IA** | Pré-validação das O.S de pós-venda e de instalação nova: coleta e sanitiza o pacote completo, lê o contrato e o "de acordo" por OCR local, aplica regras determinísticas antes da IA e escolhe problema/solução só entre as 111 combinações válidas do catálogo. Envia para validação ou devolve com nota de correção — nunca aprova sozinho | Python · Copilot Studio · OCR · SQLite |
-| ↔️ **Integração UbiDesk × Ploomes** | Loop a cada 5 minutos que busca o contrato (RPL) no CRM, converte o PDF em imagem e anexa na O.S, além de registrar o "de acordo" do cliente vindo da timeline. Sem API oficial: usuário dedicado, token com rotação, deduplicação e modo de simulação | Python · APIs · PDF |
-| 🛡️ **Portal Operacional A365** | Portal interno que reúne as ferramentas da operação atrás de um único login: dashboard de O.S alimentado por coletor próprio, mapa de rotas e área administrativa. Senha em argon2id, sessão em cookie httpOnly, blocklist de PII no coletor, deploy em VPS com systemd atrás de HTTPS | FastAPI · SQLite · JavaScript |
-| 🧰 **Kit de automações de campo** | Ferramentas somente leitura, entregues como executável para quem não programa: movimentação de equipamentos para comissionamento, equipamentos removidos em O.S pausadas/reprovadas, auditoria de contas sem rota e manutenção remota. Todas sobre um esqueleto comum com travas de escrita e testes offline | Python · openpyxl · pytest |
+## Trajetória
 
----
+**Orsegups — Analista de Sistemas** · março/2025 — atual  
+Automação, integrações, pré-validação com IA, coletores, dashboards e cobertura geográfica. Atuação próxima de operação, suporte e backoffice.
 
-## 🛠️ Tecnologias & Ferramentas
+**Orsegups — Especialista em Testes de Hardware** · setembro/2024 — março/2025  
+Dashboards do ciclo de vida dos equipamentos e organização dos fluxos de teste de novos equipamentos e RMA.
 
-**IA & Dados**
+**Figueirense Futebol Clube — Estagiário de TI** · fevereiro/2024 — setembro/2024  
+Suporte técnico e manutenção de infraestrutura.
 
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-%230078D4.svg?&style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-%23742774.svg?&style=for-the-badge&logo=microsoft&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-%23F2C811.svg?&style=for-the-badge&logo=powerbi&logoColor=black)
+**Instituto São José — Estagiário de TI** · outubro/2022 — outubro/2023  
+Suporte técnico e administração de sistemas.
 
-**Backend**
+## Formação
 
-![FastAPI](https://img.shields.io/badge/FastAPI-%23009688.svg?&style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-%23000.svg?&style=for-the-badge&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-%2307405E.svg?&style=for-the-badge&logo=sqlite&logoColor=white)
+- **MBA em Inteligência Artificial**, Estácio de Sá — em andamento.
+- **Gestão da Tecnologia da Informação**, Estácio de Sá — concluída em 2025.
+- **Python Completo do Zero ao Avançado + Projetos Reais**, Udemy — julho/2022.
 
-**Frontend & Visualização**
+<details>
+<summary>Outras certificações</summary>
 
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black)
-![Chart.js](https://img.shields.io/badge/Chart.js-%23FF6384.svg?&style=for-the-badge&logo=chartdotjs&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-%23199900.svg?&style=for-the-badge&logo=leaflet&logoColor=white)
+- Aplicação da Melhoria Contínua — junho/2024.
+- Implantação de Governança de TI — junho/2024.
+- Gestão de Projetos e de Informação — março/2024.
+- Programação para Internet — agosto/2023.
 
-**Infra & Qualidade**
+</details>
 
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=black)
-![pytest](https://img.shields.io/badge/pytest-%230A9EDC.svg?&style=for-the-badge&logo=pytest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-%232EAD33.svg?&style=for-the-badge&logo=playwright&logoColor=white)
+## Vamos conversar
 
----
+Tenho interesse em oportunidades de **automação, desenvolvimento Python e IA aplicada** que aproximem engenharia e necessidades reais da operação.
 
-## 📚 Educação & Certificações
-
-- 🎓 **MBA em Inteligência Artificial** — Estácio de Sá *(em andamento)*
-- 🎓 **Gestão da Tecnologia da Informação** — Estácio de Sá *(2025)*
-
-![Udemy](https://img.shields.io/badge/Udemy-%23A435F0.svg?&style=for-the-badge&logo=udemy&logoColor=white) **Python Completo do Zero ao Avançado + Projetos Reais** — *jul 2022*
-
-![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Aplicação da Melhoria Contínua** — *jun 2024*
-
-![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Implantação de Governança de T.I.** — *jun 2024*
-
-![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Gestão de Projetos e de Informação** — *mar 2024*
-
-![Estácio](https://img.shields.io/badge/Est%C3%A1cio-%230066CC.svg?&style=for-the-badge&logo=graduationcap&logoColor=white) **Programação para Internet** — *ago 2023*
-
----
-
-## 💼 Experiência Profissional
-
-**Orsegups** · Analista de Sistemas · *03/2025 — Atual*
-- Portal interno em FastAPI + SQLite reunindo as ferramentas da operação atrás de um único login, com deploy em VPS
-- Pré-validação de O.S com IA em produção (Copilot Studio): regras determinísticas primeiro, OCR local do contrato e decisão final sempre humana
-- Integração do sistema de O.S com o CRM sem API oficial, anexando contrato e "de acordo" do cliente automaticamente
-- Coletores e relatórios (comissionamento, equipamentos removidos, auditoria de rotas) que substituíram conferências manuais
-- Dashboards de O.S, produtividade e vazão do dia usados por supervisores em 22 regionais
-- Cobertura geográfica das rotas de campo com pipeline geoespacial (geocodificação em cascata, IBGE e Voronoi)
-- Privacidade por design em todos os projetos: minimização de PII, allowlist de payload e retenção só de dado agregado
-- Padronização dos fluxos e da taxonomia de dados de campo usada pela Operação, NAC e BackOffice
-
-**Orsegups** · Especialista em Testes de Hardware · *09/2024 — 03/2025*
-- Dashboards para monitoramento do ciclo de vida de equipamentos (RMA, novos, testados e em campo)
-- Reestruturei o sistema de testes da fábrica separando o fluxo NOVOS vs. RMA, eliminando input manual que gerava erro de classificação
-
-**Figueirense Futebol Clube** · Estágio TI · *02/2024 — 09/2024*
-
-**Instituto São José** · Estágio TI · *10/2022 — 10/2023*
-
----
-
-## 📫 Conecte-se Comigo
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joão-victor-faraco-01066423a)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jvfaraco/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%231E3A8A.svg?&style=for-the-badge&logo=githubpages&logoColor=white)](https://jvfaraco.github.io/jvfaraco-portifolio/)
-[![Email](https://img.shields.io/badge/Email-%23EA4335.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:joaovictorfaraco@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=JvFaraco&color=1E3A8A&style=flat-square&label=Visualizações+do+perfil" alt="profile views" />
-</div>
+**[joaovictorfaraco@gmail.com](mailto:joaovictorfaraco@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [Portfólio](https://jvfaraco.github.io/jvfaraco-portifolio/)
