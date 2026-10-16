@@ -21,17 +21,12 @@ De uma planilha de rotas a um mapa navegável: geocodificação, limites do IBGE
 
 `Python` `Leaflet` `GIS` · [Demo](https://jvfaraco.github.io/mapaderotas/) · [Código](https://github.com/JvFaraco/mapaderotas)
 
-**📊 Operations Dashboard Platform**<br>
-Planilhas operacionais organizadas em cinco módulos para acompanhar OS, agendas, pendências e cobertura.
-
-`Flask` `pandas` `Chart.js` · [Demo](https://jvfaraco.github.io/operational-dashboard-platform/) · [Código](https://github.com/JvFaraco/operational-dashboard-platform)
-
 **📬 Bot de alertas no Telegram**<br>
 Monitoramento de ofertas com filtros de preço, desconto e palavras-chave. Envia alertas sem repetir notificações e roda pelo GitHub Actions.
 
 `Python` `Scraping` `Telegram API` · [Código](https://github.com/JvFaraco/bot-telegram)
 
-<sub>As demos usam dados fictícios. A demo do dashboard é estática; o backend Flask está no repositório.</sub>
+<sub>As demos usam dados fictícios.</sub>
 
 ### O trabalho que acontece nos bastidores
 
