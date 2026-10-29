@@ -57,10 +57,10 @@ A suíte local do validador registrou **1.503 testes passando em 12/10/2026**. �
 ### Competências
 - **Python e automação de processos:** scripts, rotinas agendadas, planilhas e scraping. <sub>Bot de alertas, Route Coverage Map e ferramentas internas.</sub>
 - **Integração de sistemas e APIs REST:** consumo de APIs e sincronização com deduplicação, nova tentativa e reconciliação. <sub>Integração de OS com CRM e bot de alertas.</sub>
-- **Dados:** pandas, SQL/SQLite, pipelines (ETL) e Power BI. <sub>Route Coverage Map e relatórios internos.</sub>
+- **Dados:** SQL/SQLite, pipelines (ETL) e dados geográficos. <sub>Route Coverage Map e relatórios internos.</sub>
 - **Backend e web:** FastAPI e JavaScript.
 - **Qualidade e entrega:** Git, GitHub Actions (CI/CD) e pytest. <sub>CI do Route Coverage Map e suíte do validador de OS.</sub>
-- **IA aplicada:** Copilot Studio, Azure OpenAI, OCR e JSON Schema, com decisão final humana. <sub>Validador de OS com IA.</sub>
+- **IA aplicada:** Copilot Studio, Power Automate, OCR e JSON Schema, com decisão final humana. <sub>Validador de OS com IA.</sub>
 - **Privacidade de dados e documentação:** minimização de PII e documentação de arquitetura e operação. <sub>Varredura de PII no CI do mapa e sanitização no validador.</sub>
 
 ### De onde venho e o que estou estudando
