@@ -10,4 +10,4 @@ Para regenerar, instale Pillow no ambiente de desenvolvimento e execute:
 python tools/render_banner.py
 ```
 
-No Windows, usa Segoe UI e Consolas já instaladas. `--font-dir` permite escolher a pasta; em outros sistemas usa DejaVu Sans/Mono como alternativa. As fontes não são redistribuídas. `assets/profile-banner.png` é a versão estática.
+Usa DM Sans e Fira Code, as mesmas fontes do portfólio, versionadas em `tools/fonts/` sob a SIL Open Font License (textos da licença na mesma pasta), então o resultado é igual em qualquer sistema. `assets/profile-banner.png` é a versão estática, usada no README para quem ativou movimento reduzido.

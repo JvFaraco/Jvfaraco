@@ -1,14 +1,15 @@
 <a href="https://jvfaraco.github.io/jvfaraco-portifolio/">
-  <img src="assets/profile-banner.gif" alt="João Victor Faraco — Analista de Sistemas. Python, automação e integração de sistemas." width="100%" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner.png" />
+    <img src="assets/profile-banner.gif" alt="Banner de João Victor Faraco, Analista de Sistemas em São José, SC: Python, automação e integrações. Ao lado, um terminal ilustrativo mostra uma rotina automatizada. Leva ao portfólio." width="100%" />
+  </picture>
 </a>
 
 ### Oi, eu sou o João 👋
 
 **Analista de Sistemas na Orsegups · São José, SC**
 
-Comecei no suporte, passei por testes de hardware e hoje desenvolvo sistemas. Essa trajetória me ajuda a olhar para o código e também para quem vai usar a ferramenta.
-
-Meu foco é **automatizar tarefas, conectar sistemas e organizar dados com Python**. Trabalho com APIs, aplicações web, dashboards e mapas. IA entra em projetos específicos de leitura e classificação — junto com regras e conferência humana.
+Desenvolvo com Python para **automatizar tarefas, conectar sistemas e organizar dados**: APIs, aplicações web, dashboards e mapas. Comecei no suporte e passei por testes de hardware, por isso olho para o código e também para quem vai usar a ferramenta. IA entra em projetos específicos de leitura e classificação — junto com regras e conferência humana.
 
 [**Conheça meu portfólio ↗**](https://jvfaraco.github.io/jvfaraco-portifolio/) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [E-mail](mailto:joaovictorfaraco@gmail.com)
 
