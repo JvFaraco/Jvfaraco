@@ -21,7 +21,7 @@ Desenvolvo com Python para **automatizar tarefas, conectar sistemas e organizar 
 <sub>O mapa é uma captura da demo, com dados fictícios. O bot é uma ilustração no formato real das mensagens, com oferta fictícia.</sub>
 
 ### O trabalho que acontece nos bastidores
-Também desenvolvo ferramentas internas para a operação: integrações de OS com CRM, portal com dashboards, relatórios, auditorias e pré-validação de atendimentos. Os estudos estão no [portfólio](https://jvfaraco.github.io/jvfaraco-portifolio/).
+Também desenvolvo ferramentas internas para a operação: integrações de OS com CRM, relatórios, auditorias e pré-validação de atendimentos. Os estudos estão no [portfólio](https://jvfaraco.github.io/jvfaraco-portifolio/).
 
 <details>
 <summary><strong>Ver sistemas internos e decisões técnicas</strong></summary>
@@ -29,7 +29,6 @@ Também desenvolvo ferramentas internas para a operação: integrações de OS c
 | Sistema | O que resolve |
 |---|---|
 | **Integração de OS com CRM** | Sincroniza contratos, anexos e timeline; considera mudanças, deduplicação e falhas de comunicação. |
-| **Portal Operacional A365** | Reúne autenticação, dashboards de OS/produtividade, rotas e auditoria de contas com FastAPI e SQLite. |
 | **Ferramentas de campo e agenda** | Relatórios de comissão/equipamentos, auditoria de rotas, reagendamento e recomendação de agenda. |
 | **Validador de OS com IA** | Combina coleta, OCR local e regras com classificação assistida por IA; a decisão final continua humana. |
 
@@ -53,10 +52,10 @@ A suíte local do validador registrou **1.503 testes passando em 12/10/2026**. �
 ### Competências
 - **Python e automação de processos:** scripts, rotinas agendadas, planilhas e scraping. <sub>Bot de alertas, Route Coverage Map e ferramentas internas.</sub>
 - **Integração de sistemas e APIs REST:** consumo de APIs e sincronização com deduplicação, nova tentativa e reconciliação. <sub>Integração de OS com CRM e bot de alertas.</sub>
-- **Dados:** SQL/SQLite, pipelines (ETL) e dados geográficos. <sub>Route Coverage Map e portal interno.</sub>
-- **Backend e web:** FastAPI e JavaScript. <sub>Portal interno e Route Coverage Map.</sub>
-- **Qualidade e entrega:** Git, GitHub Actions (CI/CD), pytest e testes automatizados. <sub>CI do Route Coverage Map e suíte do validador de OS.</sub>
-- **IA aplicada:** Copilot Studio, OCR e JSON Schema, com decisão final humana. <sub>Validador de OS com IA.</sub>
+- **Dados:** pandas, SQL/SQLite, pipelines (ETL) e Power BI. <sub>Route Coverage Map e relatórios internos.</sub>
+- **Backend e web:** FastAPI e JavaScript.
+- **Qualidade e entrega:** Git, GitHub Actions (CI/CD) e pytest. <sub>CI do Route Coverage Map e suíte do validador de OS.</sub>
+- **IA aplicada:** Copilot Studio, Azure OpenAI, OCR e JSON Schema, com decisão final humana. <sub>Validador de OS com IA.</sub>
 - **Privacidade de dados e documentação:** minimização de PII e documentação de arquitetura e operação. <sub>Varredura de PII no CI do mapa e sanitização no validador.</sub>
 
 ### De onde venho e o que estou estudando
