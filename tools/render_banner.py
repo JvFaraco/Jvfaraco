@@ -20,7 +20,7 @@ def font(size, weight=400, mono=False):
 BG, PANEL, BORDER = '#0a0f1e', '#111a2d', '#29364d'
 TEXT, MUTED, YELLOW = '#e2e8f0', '#a1aec5', '#ffc72c'
 frames = []
-lines = ['$ python bot.py', '[ok] ofertas filtradas', '[ok] alerta sem repetição']
+lines = ['$ python validar_os.py', '[ok] regras conferidas', '[ok] IA sugeriu: pendência', '[ok] decisão humana']
 for frame in range(64):
     img = Image.new('RGB', (1200, 360), BG)
     draw = ImageDraw.Draw(img)
@@ -34,7 +34,7 @@ for frame in range(64):
     draw.line((690, 96, 1160, 96), fill=BORDER, width=1)
     for x, color in [(716, '#ed746c'), (737, '#ffc72c'), (758, '#83c6a2')]:
         draw.ellipse((x, 71, x+9, 80), fill=color)
-    draw.text((789, 63), 'uma rotina a menos', font=font(18, mono=True), fill=MUTED)
+    draw.text((789, 63), 'pré-validação de O.S.', font=font(18, mono=True), fill=MUTED)
     progress = max(0, frame-6) * 2
     for index, line in enumerate(lines):
         shown = line[:max(0, min(len(line), progress))]
