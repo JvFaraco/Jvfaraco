@@ -37,11 +37,16 @@ Dois fluxos simplificados, sem nomes de sistemas nem dados: a sincronização de
 
 ```mermaid
 flowchart LR
-  A[OS na origem] --> B{Já existe no CRM?} -- não --> C[Cria] --> E{Falhou?}
-  B -- sim --> D[Atualiza só o que mudou] --> E
-  E -- sim --> F[Nova tentativa e reconciliação]
-  E -- não --> G[Registro para conferência]
-  H[Atendimento coletado] --> I[OCR local e regras] --> J[Classificação assistida por IA] --> K[Decisão humana]
+  A[OS na origem] --> B{Já existe no CRM?}
+  B -- não --> C[Cria]
+  B -- sim --> D[Atualiza só o que mudou]
+  C & D --> E[Registro para conferência]
+  C & D -. falha .-> F[Nova tentativa e reconciliação]
+```
+
+```mermaid
+flowchart LR
+  A[Atendimento coletado] --> B[OCR local e regras] --> C[Classificação assistida por IA] --> D[Decisão humana]
 ```
 
 Cuido também do que acontece quando a API falha: simulação, reconciliação e conferência das alterações. Os repositórios são privados; os estudos não expõem credenciais nem dados operacionais.
@@ -63,10 +68,11 @@ A suíte local do validador registrou **1.503 testes passando em 12/10/2026**. �
 **Orsegups — Analista de Sistemas** · desde março/2025<br>
 Automação, integrações e ferramentas para operação, suporte e backoffice.
 
+**MBA em Inteligência Artificial** · Estácio de Sá · em andamento
+
 <details>
 <summary>Formação, trajetória anterior e cursos</summary>
 
-- **MBA em Inteligência Artificial** · Estácio de Sá · em andamento.
 - **Gestão da Tecnologia da Informação** · Estácio de Sá · concluída em 2025.
 - **Orsegups:** Especialista em Testes de Hardware · set/2024–mar/2025. Dashboards de equipamentos, testes e RMA.
 - **Figueirense Futebol Clube:** Estagiário de TI · fev–set/2024. Suporte e manutenção de infraestrutura.
@@ -79,6 +85,6 @@ Automação, integrações e ferramentas para operação, suporte e backoffice.
 </details>
 
 ### Vamos conversar?
-Procuro vagas de **desenvolvimento Python, automação e integração de sistemas**, com IA aplicada como diferencial. O caminho mais rápido é o e-mail.
+Aberto a oportunidades de **desenvolvimento Python, automação e integração de sistemas**, com IA aplicada como diferencial.
 
 **[joaovictorfaraco@gmail.com](mailto:joaovictorfaraco@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [Portfólio](https://jvfaraco.github.io/jvfaraco-portifolio/)
