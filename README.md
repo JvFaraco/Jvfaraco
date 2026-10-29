@@ -79,6 +79,6 @@ Automação, integrações e ferramentas para operação, suporte e backoffice.
 </details>
 
 ### Vamos conversar?
-Tenho interesse em oportunidades de **desenvolvimento Python, automação e integração de sistemas**, incluindo projetos de IA aplicada.
+Procuro vagas de **desenvolvimento Python, automação e integração de sistemas**, com IA aplicada como diferencial. O caminho mais rápido é o e-mail.
 
 **[joaovictorfaraco@gmail.com](mailto:joaovictorfaraco@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [Portfólio](https://jvfaraco.github.io/jvfaraco-portifolio/)
