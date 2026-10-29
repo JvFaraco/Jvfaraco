@@ -38,6 +38,17 @@ Também desenvolvo ferramentas internas para a operação: integrações de OS c
 | **Ferramentas de campo e agenda** | Relatórios de comissão/equipamentos, auditoria de rotas, reagendamento e recomendação de agenda. |
 | **Validador de OS com IA** | Combina coleta, OCR local e regras com classificação assistida por IA; a decisão final continua humana. |
 
+Dois fluxos simplificados, sem nomes de sistemas nem dados: a sincronização de OS com o CRM e a pré-validação de atendimentos.
+
+```mermaid
+flowchart LR
+  A[OS na origem] --> B{Já existe no CRM?} -- não --> C[Cria] --> E{Falhou?}
+  B -- sim --> D[Atualiza só o que mudou] --> E
+  E -- sim --> F[Nova tentativa e reconciliação]
+  E -- não --> G[Registro para conferência]
+  H[Atendimento coletado] --> I[OCR local e regras] --> J[Classificação assistida por IA] --> K[Decisão humana]
+```
+
 Cuido também do que acontece quando a API falha: simulação, reconciliação e conferência das alterações. Os repositórios são privados; os estudos não expõem credenciais nem dados operacionais.
 
 A suíte local do validador registrou **1.503 testes passando em 12/10/2026**. É uma medição desse projeto, não uma taxa de acerto da IA. O assistente de agenda está em validação: bloqueios e duração dos atendimentos ainda precisam de conferência operacional.
