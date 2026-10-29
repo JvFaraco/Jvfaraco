@@ -1,7 +1,7 @@
 <a href="https://jvfaraco.github.io/jvfaraco-portifolio/">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile-banner.png" />
-    <img src="assets/profile-banner.gif" alt="Banner de João Victor Faraco, Analista de Sistemas em São José, SC: Python, automação e integrações. Ao lado, um terminal ilustrativo mostra uma rotina automatizada. Leva ao portfólio." width="100%" />
+    <img src="assets/profile-banner.gif" alt="Banner de João Victor Faraco, Analista de Sistemas em São José, SC: Python, automação e integrações. Ao lado, um terminal ilustrativo mostra o bot de alertas filtrando ofertas e avisando sem repetir. Leva ao portfólio." width="100%" />
   </picture>
 </a>
 
