@@ -20,7 +20,7 @@ def font(size, weight=400, mono=False):
 BG, PANEL, BORDER = '#0a0f1e', '#111a2d', '#29364d'
 TEXT, MUTED, YELLOW = '#e2e8f0', '#a1aec5', '#ffc72c'
 frames = []
-lines = ['$ python rotina.py', '[ok] dados organizados', '[ok] tarefa automatizada']
+lines = ['$ python bot.py', '[ok] ofertas filtradas', '[ok] alerta sem repetição']
 for frame in range(64):
     img = Image.new('RGB', (1200, 360), BG)
     draw = ImageDraw.Draw(img)
@@ -46,7 +46,6 @@ for frame in range(64):
                 draw.rectangle((x, y+5, x+11, y+30), fill=TEXT)
             break
         progress -= len(line)
-    draw.text((716, 260), '// ilustração, sem execução real', font=font(16, mono=True), fill=MUTED)
     frames.append(img)
 
 # One short playback, then a stable final frame. No loop extension.
