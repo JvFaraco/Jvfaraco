@@ -6,9 +6,9 @@
 </a>
 
 ### Oi, eu sou o João 👋
-**Analista de Sistemas na Orsegups · São José, SC**
+**Analista de Sistemas na Orsegups · MBA em Inteligência Artificial · São José, SC**
 
-Desenvolvo com Python para **automatizar tarefas, conectar sistemas e organizar dados**: APIs, aplicações web, dashboards e mapas. Comecei no suporte e passei por testes de hardware, por isso olho para o código e também para quem vai usar a ferramenta. IA entra em projetos específicos de leitura e classificação — junto com regras e conferência humana.
+Construo **soluções com IA aplicada, Python e automação** para problemas reais da operação: um validador de O.S. com IA em uso diário, integrações de sistemas, dashboards e mapas. Na IA, combino regras verificáveis, saída estruturada e conferência humana — o modelo ajuda a decidir, mas cada resultado precisa ser conferível. Comecei no suporte e passei por testes de hardware, por isso olho para o código e também para quem vai usar a ferramenta.
 
 [**Conheça meu portfólio ↗**](https://jvfaraco.github.io/jvfaraco-portifolio/) · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [E-mail](mailto:joaovictorfaraco@gmail.com)
 
@@ -55,19 +55,19 @@ A suíte local do validador registrou **1.503 testes passando em 12/10/2026**. �
 </details>
 
 ### Competências
+- **IA aplicada:** LLMs com saída estruturada (JSON Schema) e catálogo fechado, Copilot Studio, Power Automate, OCR e servidores MCP, sempre com regras e decisão final humana. <sub>Validador de OS com IA e assistente operacional.</sub>
 - **Python e automação de processos:** scripts, rotinas agendadas, planilhas e scraping. <sub>Bot de alertas, Route Coverage Map e ferramentas internas.</sub>
 - **Integração de sistemas e APIs REST:** consumo de APIs e sincronização com deduplicação, nova tentativa e reconciliação. <sub>Integração de OS com CRM e bot de alertas.</sub>
 - **Dados:** SQL/SQLite, pipelines (ETL) e dados geográficos. <sub>Route Coverage Map e relatórios internos.</sub>
 - **Backend e web:** FastAPI e JavaScript.
 - **Qualidade e entrega:** Git, GitHub Actions (CI/CD) e pytest. <sub>CI do Route Coverage Map e suíte do validador de OS.</sub>
-- **IA aplicada:** Copilot Studio, Power Automate, OCR e JSON Schema, com decisão final humana. <sub>Validador de OS com IA.</sub>
 - **Privacidade de dados e documentação:** minimização de PII e documentação de arquitetura e operação. <sub>Varredura de PII no CI do mapa e sanitização no validador.</sub>
 
 ### De onde venho e o que estou estudando
 **Orsegups — Analista de Sistemas** · desde março/2025<br>
 Automação, integrações e ferramentas para operação, suporte e backoffice.
 
-**MBA em Inteligência Artificial** · Estácio de Sá · em andamento
+**MBA em Inteligência Artificial** · Estácio de Sá · concluído em 2026
 
 <details>
 <summary>Formação, trajetória anterior e cursos</summary>
@@ -84,6 +84,6 @@ Automação, integrações e ferramentas para operação, suporte e backoffice.
 </details>
 
 ### Vamos conversar?
-Aberto a oportunidades de **desenvolvimento Python, automação e integração de sistemas**, com IA aplicada como diferencial.
+Aberto a oportunidades em **IA aplicada, desenvolvimento Python e automação de sistemas**.
 
 **[joaovictorfaraco@gmail.com](mailto:joaovictorfaraco@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-victor-faraco-01066423a/) · [Portfólio](https://jvfaraco.github.io/jvfaraco-portifolio/)
