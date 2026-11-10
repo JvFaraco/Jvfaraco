@@ -79,7 +79,7 @@ Automação, integrações e ferramentas para operação, suporte e backoffice.
 - **Orsegups:** Especialista em Testes de Hardware · set/2024–mar/2025. Dashboards de equipamentos, testes e RMA.
 - **Figueirense Futebol Clube:** Estagiário de TI · fev–set/2024. Suporte e manutenção de infraestrutura.
 - **Instituto São José:** Estagiário de TI · out/2022–out/2023. Suporte e administração de sistemas.
-- Python Completo do Zero ao Avançado + Projetos Reais — Udemy, jul/2022.
+- Programação Python do Zero ao Avançado — Udemy, jul/2022.
 - Aplicação da Melhoria Contínua e Implantação de Governança de TI — jun/2024.
 - Gestão de Projetos e de Informação — mar/2024.
 - Programação para Internet — ago/2023.
