@@ -1,9 +1,8 @@
-"""Render the project previews used in the README. Development dependency: Pillow.
-Run: python tools/render_previews.py PATH/TO/mapaderotas/docs/assets/overview.png
-The map preview is a crop of the mapaderotas demo screenshot (fictional dataset).
+"""Render the bot preview used in the README. Development dependency: Pillow.
+Run: python tools/render_previews.py
 The bot preview is an illustration: fictional offer, no real store, logo or username.
+The map preview is recorded from the live demo by tools/record_route_preview.py.
 """
-import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -16,18 +15,6 @@ def font(size, weight=400, mono=False):
     f = ImageFont.truetype(str(FONTS / ('FiraCode.ttf' if mono else 'DMSans.ttf')), size)
     f.set_variation_by_axes([weight] if mono else [min(size, 40), weight])
     return f
-
-
-def map_preview(source):
-    # overview.png is 1440x860 at 2x. The 8:5 crop from the top-left keeps the
-    # panel and the hover tip, stops before the header badges (cutting one in
-    # half looked broken) and scales text up for the half-width README cell.
-    img = Image.open(source).convert('RGB')
-    img = img.crop((0, 0, 2240, 1400)).resize((W, H), Image.LANCZOS)
-    # 256 colours (octree keeps the saturated route colours): the basemap
-    # tiles would otherwise make a ~400 KB PNG.
-    img = img.quantize(colors=256, method=Image.Quantize.FASTOCTREE, dither=Image.Dither.FLOYDSTEINBERG)
-    img.save(ROOT / 'assets/preview-route-coverage.png', optimize=True)
 
 
 def bot_preview():
@@ -68,8 +55,6 @@ def bot_preview():
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        map_preview(sys.argv[1])
     bot_preview()
     for p in sorted((ROOT / 'assets').glob('preview-*.png')):
         print(f'{p.name}: {p.stat().st_size:,} bytes')

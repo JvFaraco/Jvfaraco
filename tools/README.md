@@ -14,10 +14,16 @@ Usa DM Sans e Fira Code, as mesmas fontes do portfólio, versionadas em `tools/f
 
 ## Previews dos projetos
 
-`render_previews.py` gera `assets/preview-bot-alertas.png`, uma ilustração no formato das mensagens do bot, com oferta e loja fictícias, e, se receber o caminho de `docs/assets/overview.png` do repositório mapaderotas, recorta a captura da demo (dados fictícios) em `assets/preview-route-coverage.png`:
+`render_previews.py` gera `assets/preview-bot-alertas.png`, uma ilustração no formato das mensagens do bot, com oferta e loja fictícias:
 
 ```sh
-python tools/render_previews.py ../mapaderotas/docs/assets/overview.png
+python tools/render_previews.py
+```
+
+`record_route_preview.py` grava `assets/preview-route-coverage.gif` a partir da demo publicada do mapaderotas (dados fictícios): um cursor desenhado passa sobre uma área, seleciona a rota, aproxima o mapa, abre uma área aproximada e troca para o tema claro. É stop-motion (uma captura por passo do cursor; o que a página anima sozinha é gravado em tempo real), em loop, com cerca de 13 s, abaixo de 1 MB e na mesma proporção do GIF da extensão. `assets/preview-route-coverage.png` é um quadro da mesma gravação, usado para quem ativou movimento reduzido. Precisa de Playwright (Chromium), Pillow e internet:
+
+```sh
+python tools/record_route_preview.py
 ```
 
 Os outros dois previews não são gerados por script:
