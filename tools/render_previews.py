@@ -19,8 +19,14 @@ def font(size, weight=400, mono=False):
 
 
 def map_preview(source):
+    # overview.png is 1440x860 at 2x. The 8:5 crop from the top-left keeps the
+    # panel and the hover tip, stops before the header badges (cutting one in
+    # half looked broken) and scales text up for the half-width README cell.
     img = Image.open(source).convert('RGB')
-    img = img.crop((0, 0, 2400, 1500)).resize((W, H), Image.LANCZOS)
+    img = img.crop((0, 0, 2240, 1400)).resize((W, H), Image.LANCZOS)
+    # 256 colours (octree keeps the saturated route colours): the basemap
+    # tiles would otherwise make a ~400 KB PNG.
+    img = img.quantize(colors=256, method=Image.Quantize.FASTOCTREE, dither=Image.Dither.FLOYDSTEINBERG)
     img.save(ROOT / 'assets/preview-route-coverage.png', optimize=True)
 
 
