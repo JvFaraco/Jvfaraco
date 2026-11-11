@@ -56,7 +56,7 @@ flowchart LR
 
 Cuido também do que acontece quando a API falha: simulação, reconciliação e conferência das alterações. Os repositórios são privados; os estudos não expõem credenciais nem dados operacionais. Uma versão pública do validador, escrita do zero com dados fictícios, está em [os-validator-demo](https://github.com/JvFaraco/os-validator-demo).
 
-A suíte local do validador registrou **1.503 testes passando em 12/10/2026**. É uma medição desse projeto, não uma taxa de acerto da IA. O assistente de agenda está em validação: bloqueios e duração dos atendimentos ainda precisam de conferência operacional.
+A suíte local do validador registrou **2.222 testes passando em 09/11/2026**. É uma medição desse projeto, não uma taxa de acerto da IA. O assistente de agenda está em validação: bloqueios e duração dos atendimentos ainda precisam de conferência operacional.
 
 </details>
 
