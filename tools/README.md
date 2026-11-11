@@ -26,7 +26,17 @@ python tools/render_previews.py
 python tools/record_route_preview.py
 ```
 
-Os outros dois previews não são gerados por script:
+`record_demo_previews.py` grava, do mesmo jeito (stop-motion com cursor desenhado, reaproveitando a classe `Film` do script acima), as prévias de duas demos publicadas. Cada uma sai em GIF de 720×416, em loop, mais um PNG estático para quem ativou movimento reduzido:
+
+- `assets/preview-os-validator.gif`: a demo do os-validator-demo (O.S. fictícias, respostas gravadas da IA). O cursor abre três O.S. que saem do fluxo em etapas diferentes: guarda de comando, regras e sanitização. O PNG é o quadro da guarda de comando.
+- `assets/preview-binance-daytrade.gif`: o painel do binance-daytrade (dados públicos de mercado, só análise). A esfera de replays gira enquanto o cursor troca o alvo e o stop do plano. Os preços são os do momento da gravação.
+
+```sh
+python tools/record_demo_previews.py            # as duas
+python tools/record_demo_previews.py binance    # só uma (validator ou binance)
+```
+
+Os outros previews não são gerados por script:
 
 - `assets/preview-quick-replies.gif` é o `docs/demo.gif` do repositório quick-replies (dados fictícios); `assets/preview-quick-replies.png` é o último quadro, usado para quem ativou movimento reduzido.
-- `assets/preview-certificados.png` é uma captura da seção de certificados do portfólio, reduzida para 800 px de largura. Os dados pessoais dos documentos já aparecem cobertos no portfólio.
+- `assets/preview-mapa-antenas.png` é uma captura (viewport 1080×624, tema escuro, reduzida para 720 px) do mapa-antenas-anatel publicado. É dado público da Anatel.
