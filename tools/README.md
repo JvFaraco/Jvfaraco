@@ -19,3 +19,8 @@ Usa DM Sans e Fira Code, as mesmas fontes do portfólio, versionadas em `tools/f
 ```sh
 python tools/render_previews.py ../mapaderotas/docs/assets/overview.png
 ```
+
+Os outros dois previews não são gerados por script:
+
+- `assets/preview-quick-replies.gif` é o `docs/demo.gif` do repositório blip-quick-replies-demo (dados fictícios); `assets/preview-quick-replies.png` é o último quadro, usado para quem ativou movimento reduzido.
+- `assets/preview-certificados.png` é uma captura da seção de certificados do portfólio, reduzida para 800 px de largura. Os dados pessoais dos documentos já aparecem cobertos no portfólio.
